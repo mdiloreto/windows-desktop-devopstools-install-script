@@ -193,5 +193,5 @@ try {
     Write-Error "An unexpected event fatally halted the code with error: $($_.Exception.Message)"
     exit 1
 } finally {
-    Write-Host "******* All applicable latest packages, and patterns including Bootstrapping, set up has been completed. Inspect carefully for errors. *******" -ForegroundColor Cyan
+    Write-Host "******* Script run finished. Review the results above. For some software tools to be fully installed you will need to restart your PC...*******" -ForegroundColor Cyan
 }
