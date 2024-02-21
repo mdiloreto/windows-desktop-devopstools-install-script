@@ -1,18 +1,3 @@
-<#
-.SYNOPSIS
-Comprehensive Cloud Engineering Tools installation automation for Windows.
-
-.DESCRIPTION
-Performs an all-in-one script to install various curial tools and services for developers on Windows. 
-Utilizes Chocolatey and Winget for managing the setup of applications and CLI services.
-
-.PARAMETER ChocolateyApps
-An array of Chocolatey app package IDs to be installed.
-
-.PARAMETER WingetApps
-An array of Windows Package Manager IDs for PowerShell and other components.
-#>
-
 function RunAsAdmin {
     try {
         # Ensure the script is run as an Administrator
