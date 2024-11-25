@@ -161,7 +161,9 @@ $chocoSoftwareList = @(
     "snagit",
     "bitwarden",
     #"googlechrome", ### Package out of date 20-2-2024
-    "firefox"
+    "firefox",
+    "vagrant",
+    "virtualbox"
 )
 
 $distribution = "Ubuntu"  
